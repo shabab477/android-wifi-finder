@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ListActivity" >
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN!"
+        android:id="@+id/buttonScan"
+        />
 
     <ListView
         android:id="@+id/mobile_list"
